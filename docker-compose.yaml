@@ -12,7 +12,7 @@ services:
     links:
       - postgres:postgres
     volumes:
-      - ./api:/srv/api
+      - ./api:/srv/app
     ports:
       - "1337:1337"
 
